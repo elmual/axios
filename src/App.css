@@ -1,0 +1,29 @@
+#root {
+  margin: 0 auto;
+  margin-top: 130px;
+  text-align: center;
+}
+.el{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header{
+  background-color: black;
+  color: white;
+  width: 100%;
+  line-height: 90px;
+  margin: 0;
+  font-size: 50px;
+  position: fixed;
+  top: 0;
+  flex: 1 0 300px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  line-height: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
